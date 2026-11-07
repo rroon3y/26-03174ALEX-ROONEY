@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Skills Training Centre - Registration</title>
+</head>
+<body>
+    
+    <div id="header">
+        <h1>Future Skills Training Centre</h1>
+    </div>
+
+    <div id="navigation">
+         <a href="index.html">Home</a> |
+        <a href="about.html">About Us</a> |
+        <a href="courses.html">Courses</a> |
+        <a href="registration.html">Registration</a> |
+        <a href="contact.html">Contact Us</a>
+    </div>
+
+    <hr>
+
+    <div id="registration">
+        <h2>Student Registration</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Personal Details</legend>
+                <p>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </p>
+                <p>
+                    Gender:
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob">
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email">
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" name="phone" id="phone">
+                </p>
+            </fieldset>
+            
+
+            <br>
+
+            <fieldset>
+                <legend>Course Selection</legend>
+                <p>
+                    <label for="course">Choose a course:</label>
+                    <select name="course" id="course">
+                        <option value="">-- Select a course --</option>
+                        <option value="IT101">Web Design and Development</option>
+                        <option value="IT102">Computer Networking</option>
+                        <option value="BUS101">Business Administration</option>
+                        <option value="BUS102">Entrepreneurship Skills</option>
+                        <option value="MM101">Graphic Design</option>
+                        <option value="MM102">Video Editing and Animation</option>
+                        <option value="PM101">Project Management Fundamentals</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Skills</legend>
+                <p>
+                    <input type="checkbox" name="skills" id="computer" value="computer">
+                    <label for="computer">Basic Computer Skills</label><br>
+
+                    <input type="checkbox" name="skills" id="typing" value="typing">
+                    <label for="typing">Typing</label><br>
+
+                    <input type="checkbox" name="skills" id="design" value="design">
+                    <label for="design">Design</label><br>
+
+                    <input type="checkbox" name="skills" id="programming" value="programming">
+                    <label for="programming">Programming</label><br>
+
+                    <input type="checkbox" name="skills" id="communication" value="communication">
+                    <label for="communication">communication</label>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+
+    <hr>
+
+    <div id="back">
+        <p><a href="index.html">Back to Home</a></p>
+    </div>
+    
+</body>
+</html>
